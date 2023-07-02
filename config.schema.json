@@ -1,0 +1,28 @@
+{
+  "pluginAlias": "homebridge-esp8266-air-circuration-system",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Name",
+        "type": "string",
+        "placeholder": "Input accessory name",
+        "default": "ESP8266 Relay Module",
+        "required": true
+      },
+      "ip": {
+        "title": "IP",
+        "type": "string",
+        "placeholder": "192.0.0.0",
+        "required": true
+      },
+      "cacheTime": {
+        "title": "Cache Time",
+        "type": "number",
+        "placeholder": 20
+      }
+    }
+  }
+}
